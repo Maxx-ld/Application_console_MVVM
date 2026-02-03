@@ -1,4 +1,5 @@
-﻿using Console_app.ViewModels;
+﻿using Console_app.Tests;
+using Console_app.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,6 +7,8 @@ using System.Text;
 // Initialisation du ViewModel une seule fois
 var viewModel = new MainViewModel();
 bool continuer = true;
+
+Tester.RunTests();
 
 Console.WriteLine("=== CONVERTISSEUR PRO MVVM (.NET 10) ===");
 
