@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../Console_app/Console_app/Console_app.csproj" />
+  <Project Path="WpfApp/WpfApp.csproj" />
+</Solution>
